@@ -20,6 +20,7 @@ body{
 
 .container{
     padding: 10px 10%;
+    background-color: #000;
 }
 
 nav{
@@ -27,7 +28,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: #000;
+    background-color: #000;
 }
 
 .logo{
