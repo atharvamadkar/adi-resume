@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #000;
+    background: black;
     color: #fff;
 }
 
@@ -27,7 +27,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #000;
+    background: black;
 }
 
 .logo{
