@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content = "width-device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3bc06cce84.js" crossorigin="anonymous"></script>
+        <title>My Personal Portfolio</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <img src = "images/adi_logo.png" class = "logo">
+                <ul id = "sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick = "closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick = "openmenu()"></i>
+            </nav>
+        </div>
+        <div id = "header">
+            <div class= "container">
+                <div class="header-text">
+                    <p>
+                        Quantitative Analyst
+                    </p>
+                    <h1>
+                        Hi, I'm <span>Aditya</span>   <br> Madkar from India
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
+
+<!--
+
+<div class = "hero">
+    <nav>
+        <img src = "images/logo_lotus.png" alt = "" id = "logo">
+        <ul>
+            <li><a href = "#">HOME</a></li>
+            <li><a href = "#">ABOUT</a></li>
+            <li><a href = "#">EDUCATION</a></li>
+            <li><a href = "#">HOBBIES</a></li>
+            <li><a href = "#">SOCIAL MEDIA</a></li>
+        </ul>
+    </nav>
+    <div class = "intro">
+        <h1>I'm Atharva <span>Madkar</span></h1>
+        <p>
+            This my life, and I love it!
+            <br>This website gives all the relevant professional details about me.
+            <br> Feel free to contact me anytime.
+        </p>
+        <a href="#">DOWNLOAD CV</a>
+    </div>
+    <div class= "images">
+
+    </div>
+</div> -->
